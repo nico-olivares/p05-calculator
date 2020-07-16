@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Coda|Codystar|Jacques+Francois+Shadow|Unica+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+		<script defer src="index.js"></script>
+		<title>Super Calculator</title>
+	</head>
+	<body>
+		<main id="app">
+			<h1>
+				Calculator
+			</h1>
+			<div class="calculator">
+				<section class="display">
+					<div class="displayRow1 displayRows"></div>
+					<div class="displayRow2 displayRows"></div>
+					<div class="displayRow3 displayRows"></div>
+					<div class="displayRow4 displayRows"></div>
+				</section>
+				<section class="controls">
+					<section class="leftColumn">
+						<button class="RPN">RPN</button>
+						<button class="plusMinus">&plusmn;</button>
+						<button class="enter" value="enter">=</button>
+					</section>
+					<section class="operations">
+						<button class="divide" value="/">&#xf7;</button>
+						<button class="multiply" value="*">&times;</button>
+						<button class="subtract" value="-">&minus;</button>
+						<button class="add" value="+">&plus;</button>
+					</section>
+					<section class="digits">
+						<button>7</button>
+						<button>8</button>
+						<button>9</button>
+						<button>4</button>
+						<button>5</button>
+						<button>6</button>
+						<button>1</button>
+						<button>2</button>
+						<button>3</button>
+						<button class="zero">0</button>
+						<button class="decimal">.</button>
+					</section>
+					<section class="bottom">
+						<button class="switch">x&#8596;y</button>
+						<button class="delete">DEL</button>
+						<button class="clear">CLR</button>
+						<button class="square" value="x2">x&sup2;</button>
+						<button class="root" value="root">&#8730;</button>
+					</section>
+				</section>
+			</div>
+			<div class="sideNote">
+				<button class="rpnDef">RPN Example</button>
+				<a href="calculator.html" target="_self">
+					<button class="original">Original<br />Calculator</button>
+				</a>
+			</div>
+			<div class="rpnInfo">
+				<button class="close">X</button>
+				<p class="infoText">
+					Example:<br />(3+5) ÷ (7+6) = x<br />•Algebraic method: Add: 3 + 5 = 8
+					. Write the answer down or store it in the memory. Add: 7 + 6 = 13 .
+					Now enter the 8 from the first outcome and share these results through
+					the second answer for the result x = 0.62 .<br />•RPN method : Type 3
+					and then press ENTER. Type 5 and then press the plus key (+). Type 7
+					and then press ENTER. Type 6 and then press the plus key (+). Note
+					that the outcome is displayed , the second sum . Now comes the
+					surprise : press the button for division and the calculator returns
+					the result ( 0.62 ) again .
+				</p>
+			</div>
+		</main>
+	</body>
+</html>
