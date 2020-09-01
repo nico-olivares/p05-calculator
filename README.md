@@ -6,3 +6,5 @@ The calculator that open on entry is a twist of my own. It has an RPN mode just 
 "RPN Example" explains how RPN calculators work for users that may not know.
 
 This project showcases HTML, CSS, and JavaScript coding.
+
+Deployment: https://calculator-olivares.netlify.app 
